@@ -1,10 +1,13 @@
 <template>
 	<div>
 		<div v-if="kk==1">
-			1111111
+			<GoodList :goodId="1"></GoodList>
 		</div>
-		<div v-if="kk==2">
-			22222
+		<div v-else-if="kk==2">
+			<GoodList :goodId="2"></GoodList>
+		</div>
+		<div v-else>
+			<GoodList :goodId="0"></GoodList>
 		</div>
 		
 	</div>
@@ -12,6 +15,7 @@
 
 <script type="text/javascript">
 	import Msg from './msg.js'
+	import GoodList from './GoodList.vue'
 	export default{
 		data(){
 			return{
@@ -23,6 +27,9 @@
 			Msg.$on('val',function(m){
 				_this.kk=m;
 			})
+		},
+		components:{
+			GoodList
 		}
 	}
 </script>

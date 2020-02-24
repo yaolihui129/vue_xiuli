@@ -4,12 +4,9 @@
 		<ul class="menu">
 			<li @click="menu1">笔记本电脑</li>
 			<li @click="menu2">手机</li>
-			<li>笔记本电脑</li>
-			<li>手机</li>
-			<li>笔记本电脑</li>
-			<li>手机</li>
-			<li>笔记本电脑</li>
-			<li>手机</li>
+			<li @click="menu3">服饰</li>
+			<li @click="menu4">手表</li>
+			
 		</ul>
 	</div>
 </template>
