@@ -5,7 +5,7 @@
 		</div>
 		<div class="right">
 			<div class="top">
-				<img src="../../public/images/title.jpg" />
+				<img src="../../public/img/title.jpg" />
 			</div>
 			<div class="buttom">
 				<Right></Right>
