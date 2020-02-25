@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="container">
 		<div v-if="kk==1">
 			<GoodList :goodId="1"></GoodList>
 		</div>
@@ -15,7 +15,7 @@
 
 <script type="text/javascript">
 	import Msg from './msg.js'
-	import GoodList from './GoodList.vue'
+	import GoodList from '../GoodList.vue'
 	export default{
 		data(){
 			return{
@@ -33,6 +33,3 @@
 		}
 	}
 </script>
-
-<style>
-</style>

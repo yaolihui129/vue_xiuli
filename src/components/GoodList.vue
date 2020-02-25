@@ -1,11 +1,23 @@
 <template>
 	<div class="show">
-		<ul class="goodList">
-			<li v-for="good in list">
-				<img v-bind:src="good.img"/>
-				<p>{{good.goodName}}</p>
-			</li>
-		</ul>
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h3 class="panel-title">广告牌&发光字</h3>
+			</div>
+			<div class="panel-body">
+				<li v-for="good in list">
+					<div class="col-md-3">
+						<div class="thumbnail">
+							<router-link to="#">
+								<img v-bind:src="good.img" />
+								<p>{{good.goodName}}</p>
+							</router-link>
+						</div>
+					</div>
+				</li>	
+			</div>
+		</div>
+		
 	</div>
 </template>
 
@@ -55,13 +67,7 @@
 </script>
 
 <style type="text/css">
-	.goodList li{
-		width: 200px;
-		height: 200px;
+	.panel-body li{
 		list-style: none;
-		float: left;
-		font-size: 9px;
-		color: red;
-		margin-bottom: 30px;
 	}
 </style>
