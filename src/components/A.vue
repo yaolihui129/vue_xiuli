@@ -2,12 +2,6 @@
 	<div>
 		<div>A</div>
 		<router-link to="/home">返回</router-link>
-	</div>
-	
+	</div>	
 </template>
 
-<script>
-</script>
-
-<style>
-</style>

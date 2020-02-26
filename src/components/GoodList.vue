@@ -28,11 +28,11 @@
 			var _this = this;
 			var url = "";
 			if(_this.goodId==1){
-				url = "json/bjb.json";
+				url = "json/ggp.json";
 			}else if(_this.goodId==2){
-				url = "json/sj.json";
+				url = "json/daz.json";
 			}else{
-				url = "json/sj.json";
+				url = "json/ggp.json";
 			}
 			this.$http.get(url).then(function(res){
 				_this.list=res.data;
@@ -50,11 +50,12 @@
 				var _this =this;
 				var url = "";
 				if(_this.goodId==1){
-					url = "json/bjb.json";
+					url = "json/ggp.json";
 				}else if(_this.goodId==2){
-					url = "json/sj.json";
+					url = "json/daz.json";
+				}else{
+					url = "json/ggp.json";
 				}
-				
 				this.$http.get(url).then(function(res){
 					_this.list=res.data;
 				})

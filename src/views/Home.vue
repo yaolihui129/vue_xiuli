@@ -1,7 +1,6 @@
 <template>
   <div class="home">
 	<div>
-		<img alt="Vue logo" src="../assets/logo.png">
 		<h1>count:{{this.$store.state.count}}</h1>
 		<button @click="countIncrease">点我</button>
 	</div>

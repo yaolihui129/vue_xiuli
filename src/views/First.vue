@@ -7,6 +7,7 @@
 				<div class="col-md-3">
 					<div class="panel panel-info">
 						<div class="panel-body">
+							<br />
 							<h2>临城-秀丽广告</h2>
 							<hr />
 							<h4>热线:0319-7186126</h4>
@@ -16,10 +17,11 @@
 							<h4>Q Q: 2830690782</h4>
 							<hr />
 							<h4>网址:xiuliguanggao.com</h4>
+							<br />
 						</div>
 					</div>
 				</div>	
-				<img class="col-md-9" src="../../public/img/title.jpg" />
+				<img class="col-md-9" src="../../public/img/title.png" />
 			</div>
 			<div class="row">
 				<div class="col-md-12">
